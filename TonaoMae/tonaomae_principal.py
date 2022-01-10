@@ -8,6 +8,7 @@ import time
 
 pygame.init()
 conseval.tela
+pygame.display.set_caption(conseval.nomejogo)
 
 pontuacao = 0
 sono = 0
