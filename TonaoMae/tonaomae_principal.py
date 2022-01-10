@@ -68,7 +68,6 @@ while True:
         if contagemterminou == True: #contagem maevindo
             cont = random.randint(difmin,difmax)
             contagemterminou = False
-            print(cont)
         elif cont <= 0: 
             maeesta = True
             contagemterminou = True
